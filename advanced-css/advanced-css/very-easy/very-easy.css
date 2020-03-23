@@ -1,0 +1,13 @@
+.flex-content {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+
+.white-box {
+    background-color: white;
+}
+
+.black-box {
+    background-color: black;
+}

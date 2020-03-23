@@ -1,0 +1,53 @@
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.content__area {
+  /* border: solid; */
+  width: 30%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.content__area--large {
+  width: 63%;
+}
+
+.content__area--background {
+  background-color: lightgrey;
+}
+
+img {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+p {
+  padding: 5px;
+  margin: 0px;
+  font-size: 2rem;
+}
+
+p::first-letter {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.main-header {
+  font-size: 8rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.news-article {
+  font-size: 4rem;
+}
+/*# sourceMappingURL=very-hard.css.map */
