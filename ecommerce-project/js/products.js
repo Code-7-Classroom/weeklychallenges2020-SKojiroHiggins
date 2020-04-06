@@ -12,7 +12,6 @@ function filterSelection(str){
             addClass(elementArray[i], 'show'); // adds 'show' to every element that matches the str class
         }
     }
-
 }
 
 // Show elements
@@ -35,8 +34,6 @@ function removeClass(element, name) {
     element.className = array1.join(" ");
 }
 
-
-  
 // Add active class 
 var btns = document.getElementsByClassName('filters__btn');
 for (var i = 0; i < btns.length; i++) {
