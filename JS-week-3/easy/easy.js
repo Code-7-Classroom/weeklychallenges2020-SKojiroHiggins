@@ -4,8 +4,9 @@ function exercise(str) {
     }
 }
 
-
-var run = exercise('running');
-console.log(run()); // prints "Today's exercise: running"
-var swim = exercise('swimming');
-console.log(swim()); // prints "Today's exercise: swimming"
+// // test 1
+// var run = exercise('running');
+// console.log(run()); // prints "Today's exercise: running"
+// // test 2
+// var swim = exercise('swimming');
+// console.log(swim()); // prints "Today's exercise: swimming"

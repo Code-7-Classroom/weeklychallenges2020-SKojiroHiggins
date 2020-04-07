@@ -15,10 +15,10 @@ class Person {
 }
 
 class Programmer extends Person {
-    constructor(name, job, age, languages, busy = true) {
+    constructor(name, job, age, languages) {
         super(name, job, age);
         this.languages = languages;
-        this.busy = busy; 
+        this.busy = true; 
     }   
 
     completeTask() {
@@ -46,28 +46,28 @@ class Programmer extends Person {
     }
 }
 
-// test 1
-const john = new Person('John', 'Teacher', '25');
-// test 2
-john.exercise();
-// test 3
-john.fetchJob();
-// test 4
-const mark = new Programmer('Mark', 'Programmer', 30, ['Java', 'JavaScript']);
-// test 5 and 6
-mark.offerNewTask();
-mark.completeTask();
-mark.offerNewTask();
-mark.acceptNewTask();
-// test 7
-mark.learnLanguage('Ruby')
-mark.listLanguages();
-// test 8
-const jane = new Programmer('Jane', 'Programmer', 23, ['HTML', 'CSS', 'Python']);
-jane.fetchJob();
-jane.learnLanguage('C++');
-jane.listLanguages();
-jane.offerNewTask();
+// // test 1
+// const john = new Person('John', 'Teacher', '25');
+// // test 2
+// john.exercise();
+// // test 3
+// john.fetchJob();
+// // test 4
+// const mark = new Programmer('Mark', 'Programmer', 30, ['Java', 'JavaScript']);
+// // test 5 and 6
+// mark.offerNewTask();
+// mark.completeTask();
+// mark.offerNewTask();
+// mark.acceptNewTask();
+// // test 7
+// mark.learnLanguage('Ruby')
+// mark.listLanguages();
+// // test 8
+// const jane = new Programmer('Jane', 'Programmer', 23, ['HTML', 'CSS', 'Python']);
+// jane.fetchJob();
+// jane.learnLanguage('C++');
+// jane.listLanguages();
+// jane.offerNewTask();
 
 
 
