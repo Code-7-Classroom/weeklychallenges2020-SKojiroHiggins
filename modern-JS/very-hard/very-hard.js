@@ -7,11 +7,11 @@ let veryHard = function (string) {
         tempString += string.charAt(i);
     }
 }
-// test 
-console.log(veryHard('the quick brown fox jumps over the calm kitten quietly'));
+// tests
+// console.log(veryHard('the quick brown fox jumps over the calm kitten quietly'));
 
-console.log(veryHard('this hat is the greatest!'));
+// console.log(veryHard('this hat is the greatest!'));
 
-console.log(veryHard('what a wonderful day it has been!'));
+// console.log(veryHard('what a wonderful day it has been!'));
 
 
