@@ -1,0 +1,16 @@
+button {
+    height: 100px;
+    width: 180px;
+}
+
+body {
+    background-color: skyblue;
+}
+
+.body--red {
+    background-color: red;
+}
+
+.body--white {
+    background-color: white;
+}
