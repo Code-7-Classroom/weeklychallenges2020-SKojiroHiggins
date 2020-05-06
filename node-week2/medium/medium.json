@@ -1,0 +1,73 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "name": "Wilkisson", 
+            "salary": 115000,
+            "department":"Back End Developer"
+        },
+
+        {
+            "id": 2, 
+            "name": "Roscamps",
+            "salary": 107000,
+            "department": "Front End Developer"
+        },
+
+        {
+            "id": 3,
+            "name": "Bishop",
+            "salary": 115000,
+            "department": "Back End Developer"
+        },
+
+        {
+            "id": 4,
+            "name": "Chaikovski",
+            "salary": 151000,
+            "department": "Front End Developer"
+        },
+
+        {
+            "id": 5,
+            "name": "Drinan",
+            "salary": 134000,
+            "department": "IT tier 2"
+        },
+
+        {
+            "id": 6,
+            "name": "Beet",
+            "salary": 181000,
+            "department": "IT tier 3"
+        },
+
+        {
+            "id": 7,
+            "name": "Putson",
+            "salary": 169000,
+            "department": "Project Manager"
+        },
+
+        {
+            "id": 8,
+            "name": "Bishop",
+            "salary": 115000,
+            "department": "Back End Developer"
+        },
+
+        {
+            "id": 9,
+            "name": "Louella",
+            "salary": 68000,
+            "department": "Associate Developer"
+        },
+
+        {
+            "id": 10,
+            "name": "Hidagarde",
+            "salary": 56000,
+            "department": "Associate Developer"
+        }
+    ]
+}
